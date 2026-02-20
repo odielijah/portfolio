@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    flex-direction: column;
+    background-color: #4000c0;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding: 2rem 0;
+    gap: 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .nav-link {
+    color: #fff;
+    display: block;
+    padding: 1rem;
+  }
+  .btn-contact {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hamburger.active .line:nth-child(1) {
+    transform: translateY(4.5px) rotate(45deg);
+  }
+  .hamburger.active .line:nth-child(2) {
+    transform: translateY(-4.5px) rotate(-45deg);
+  }
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  .cta-buttons {
+    flex-direction: column;
+  }
+  .btn {
+    width: 100%;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+  .hero-title {
+    font-size: 1.5rem;
+  }
+  .section-title {
+    font-size: 1.3rem;
+  }
+  .skill-category {
+    padding: 0.75rem;
+  }
+  .experience-item {
+    padding: 1rem;
+  }
+  .project-card {
+    padding: 1rem;
+  }
+}
