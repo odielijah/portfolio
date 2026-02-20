@@ -107,6 +107,9 @@ body {
 .nav-link:hover {
   color: #4000c0;
 }
+.nav-link.active {
+  color: #4000c0;
+}
 .hamburger {
   display: none;
   flex-direction: column;

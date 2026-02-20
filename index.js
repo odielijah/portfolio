@@ -1,5 +1,5 @@
 const navMenu = document.querySelector(".nav-menu");
-const navLink = document.querySelectorAll(".nav-link");
+const navLinks = document.querySelectorAll(".nav-link");
 const anchorLink = document.querySelectorAll('a[href^="#"]');
 const hamburger = document.querySelector(".hamburger");
 
@@ -11,7 +11,7 @@ function mobileMenu() {
 hamburger.addEventListener("click", mobileMenu);
 
 // close the nav menu when user clicks link
-navLink.forEach((link) =>
+navLinks.forEach((link) =>
   link.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
