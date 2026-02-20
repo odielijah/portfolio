@@ -198,9 +198,16 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
+  margin: 1rem 0 4rem 0;
+}
+.category-title {
+  font-size: 16px;
+  color: #4000c0;
+  display: block;
 }
 .project-card {
   background-color: #fff;
+  height: auto;
   border: 1px solid #dfe1e6;
   border-radius: 12px;
   padding: 1.5rem;
@@ -247,7 +254,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 .tech-tag {
   background-color: #ebebff;
